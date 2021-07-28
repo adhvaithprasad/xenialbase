@@ -169,7 +169,7 @@ function setlang(){
    var firepadRef = getExampleRef();
     //// Create Firepad.
       var firepad = Firepad.fromACE(firepadRef, editor, {
-        defaultText: '// JavaScript Editing with Firepad!\nfunction go() {\n  var message = "Hello, world.";\n  console.log(message);\n}'
+        defaultText: 'edit here'
       });
     
       // Helper to get hash from end of URL or generate a random one.
